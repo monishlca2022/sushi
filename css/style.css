@@ -778,3 +778,14 @@ footer ul li a:hover {
     }
 
 }
+
+@media screen and (max-width: 700px) {
+    .banner .rslides_container .hero-text h1 {
+        font-size: 30px;
+        padding: 0 0 20px 0;
+    }
+    .banner .rslides_container .hero-text p{
+        padding-bottom: 20px;
+    }
+
+}
