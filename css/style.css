@@ -599,6 +599,15 @@ footer .text-block {
     padding: 0;
     margin: 0;
 }
+footer .icon-block a{
+    margin-right: 10px;
+    transform-origin: center;
+    transition: 0.3s;
+}
+footer .icon-block a:hover{
+    color: #FFD17E;
+    transform: scale(1.1);
+}
 
 footer .text-block h3 {
     display: inline-block;
