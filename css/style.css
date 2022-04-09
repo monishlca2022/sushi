@@ -629,3 +629,152 @@ footer ul li a {
 footer ul li a:hover {
     color: #ffd17e;
 }
+
+
+/*******************************
+        MEDIA QUERIES 
+********************************/
+
+@media only screen and (orientation:landscape) {
+    body {
+        -webkit-text-size-adjust: none;
+    }
+}
+
+@media only screen and (orientation:portrait) {
+    body {
+        -webkit-text-size-adjust: none;
+    }
+}
+
+/*Break Points*/
+@media screen and (max-width: 1366px) {}
+
+
+@media screen and (max-width: 1199px) {
+    .banner .rslides_container .hero-text h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner .rslides_container .hero-text h1 {
+        font-size: 50px;
+    }
+
+    /*
+    a.centered-btns_nav.centered-btns1_nav.prev,
+    a.centered-btns_nav.centered-btns1_nav.next{
+        display: none;
+    }
+*/
+    .banner .rslides_container .hero-text p {
+        padding-right: 0;
+    }
+
+    .statistics-section .text-block p {
+        padding: 0 8% 80px 8%;
+    }
+
+    .statistics-section .counter-block .box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .statistics-section .counter-block .box h3 {
+        font-size: 45px;
+    }
+
+    .statistics-section .counter-block .box p {
+        font-size: 22px;
+    }
+
+    .latest-product-section {
+        background-image: url(../images/blue-dots.png),
+            url(../images/blue-hatch.png),
+            url(../images/blue-zigzag.pn),
+
+            url(../images/blue-dots-v.png),
+            url(../images/blue-hatch.png),
+            url(../images/blue-zigzag.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 253px 0,
+            101% -5%,
+            150px 25%,
+            101% 70%,
+            -5% 110%,
+            100% 90%;
+        background-color: #ffd17e;
+        padding: 120px 0;
+    }
+
+    .latest-product-section .text-block h2 {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+
+    .latest-product-section .text-block p {
+        padding: 0 0% 50px 0;
+    }
+
+    .latest-product-section .text-block a {
+        font-size: 16px;
+        line-height: 1.3;
+        padding: 15px 35px;
+    }
+
+    .latest-product-section .img-block {
+        width: auto;
+        height: auto;
+    }
+
+    .comment-section {
+        padding: 120px 0;
+    }
+
+    .comment-section .text-block p {
+        font-size: 20px;
+        padding: 30px 8%;
+    }
+
+    .newsletter-secton {
+        padding: 120px 0;
+    }
+
+    .newsletter-secton .text-block p {
+        padding: 0 0 80px 0;
+    }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .banner .rslides_container .hero-text h1 {
+        font-size: 40px;
+        padding: 0 0 30px 0;
+    }
+
+    .banner .rslides_container .hero-text a {
+        font-size: 16px;
+        padding: 15px 35px;
+    }
+
+    a.centered-btns_nav.centered-btns1_nav.prev {
+        left: 2%;
+    }
+
+    a.centered-btns_nav.centered-btns1_nav.next {
+        right: 2%;
+    }
+
+    a.centered-btns_nav.centered-btns1_nav.prev:hover {
+        left: 1%;
+    }
+
+    a.centered-btns_nav.centered-btns1_nav.next:hover {
+        right: 1%;
+    }
+
+}
