@@ -1,0 +1,101 @@
+.rslides_container {
+    position: relative;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    max-width: 100%;
+    border: 0;
+}
+
+/*DOTS*/
+ul.centered-btns_tabs.centered-btns1_tabs {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.centered-btns_tabs.centered-btns1_tabs li {
+    width: 12px;
+    height: 12px;
+    background-color: #21243D;
+    border-radius: 50%;
+    font-size: 0;
+    margin: 0 5px;
+}
+
+ul.centered-btns_tabs.centered-btns1_tabs li.centered-btns_here {
+    background-color: #FFD17E;
+}
+
+/*Previous Next Button*/
+a.centered-btns_nav.centered-btns1_nav.prev,
+a.centered-btns_nav.centered-btns1_nav.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 50px;
+    background-color: rgba(33, 36, 61, 0.8);
+    font-size: 0;
+    z-index: 999;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+}
+
+a.centered-btns_nav.centered-btns1_nav.prev {
+    border-radius: 3px 0 0 3px;
+    left: 5%;
+    background-image: url(../images/prev-btn-arrow.png);
+}
+
+a.centered-btns_nav.centered-btns1_nav.next {
+    border-radius: 0 3px 3px 0;
+    right: 5%;
+    background-image: url(../images/next-btn-arrow.png);
+}
+
+a.centered-btns_nav.centered-btns1_nav.prev:hover,
+a.centered-btns_nav.centered-btns1_nav.next:hover {
+    background-color: rgba(255,209,106,0.8);
+}
+
+a.centered-btns_nav.centered-btns1_nav.prev:hover{
+    left: 4%;
+}
+a.centered-btns_nav.centered-btns1_nav.next:hover{
+    right: 4%;
+}
